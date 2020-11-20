@@ -255,7 +255,7 @@ class AdminPanelController extends AdminController {
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <label for="name">Date</label>
-                        <input type="text" name="news_date" value="'.date('d-m-Y',strtotime($site_news->news_date)).'" id="news_date" class="form-control datepicker">
+                        <input type="text" name="news_date" value="'.date('d-m-Y',strtotime($site_news->date_time)).'" id="news_date" class="form-control datepicker">
                     </div>
                     
                      
