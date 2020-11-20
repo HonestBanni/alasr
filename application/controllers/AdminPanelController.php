@@ -230,9 +230,6 @@ class AdminPanelController extends AdminController {
                     </script>
                     <?php
             endif;
-            
-            
-          
         }
     public function admin_news_update_js(){
           
